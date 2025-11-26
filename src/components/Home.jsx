@@ -98,7 +98,7 @@ const Home = () => {
         </div>
 
         <div className="text-center mt-10">
-          <Link className="bg-red-600 text-white px-8 py-3 rounded-xl shadow hover:bg-red-700 hover:scale-105 transition-all">
+          <Link to={'/courses'} className="bg-red-600 text-white px-8 py-3 rounded-xl shadow hover:bg-red-700 hover:scale-105 transition-all">
             More Courses →
           </Link>
         </div>
@@ -130,7 +130,7 @@ const Home = () => {
         </div>
 
         <div className="text-center mt-10">
-          <Link className="bg-red-600 text-white px-8 py-3 rounded-xl shadow hover:bg-red-700 hover:scale-105 transition-all">
+          <Link to={'/faculty'} className="bg-red-600 text-white px-8 py-3 rounded-xl shadow hover:bg-red-700 hover:scale-105 transition-all">
             More Faculty →
           </Link>
         </div>
@@ -158,7 +158,7 @@ const Home = () => {
         </div>
 
         <div className="text-center mt-10">
-          <Link className="bg-red-600 text-white px-8 py-3 rounded-xl shadow hover:bg-red-700 hover:scale-105 transition-all">
+          <Link to={'/events'} className="bg-red-600 text-white px-8 py-3 rounded-xl shadow hover:bg-red-700 hover:scale-105 transition-all">
             More Events →
           </Link>
         </div>
@@ -197,7 +197,7 @@ const Home = () => {
           Feel free to reach out. We’re always happy to help!
         </p>
 
-        <Link className="mt-6 inline-block bg-white text-red-600 font-bold px-8 py-3 rounded-xl shadow hover:scale-105 transition">
+        <Link to={'/contact'} className="mt-6 inline-block bg-white text-red-600 font-bold px-8 py-3 rounded-xl shadow hover:scale-105 transition">
           Get in Touch
         </Link>
       </section>
